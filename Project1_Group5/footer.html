@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Purdue University MGMT38200</title>
+<style>
+    body {
+       font-family: Georgia, cursive;
+       margin: 0; padding: 0;
+       background-image: url('para.jpg'); 
+       background-size: cover; 
+       background-position: center; 
+       background-attachment: fixed; 
+       }
+
+/* Below is in CSS */
+/* Footer Styles */
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer {
+    background-image: url('HK.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-section {
+    text-align: center;
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+     color: #FFFFFF;
+     text-decoration: none;
+     display: block;
+     margin: 5px 0;
+     transition: color 0.3s;
+}
+
+.footer-section ul li a: hover {
+      color: #FFFFFF;
+      text-decoration: underline;
+     
+}
+
+
+/* Header Styles */
+       
+.header{
+      background-color: #FFFFFF;
+      text-align: center;
+      padding: 0px;
+       }
+
+/* Middle logo styles*/
+
+.logo {
+        width: 290px;
+        height: 100px;
+        display: block;
+        margin: 30 px;
+      }
+
+.image-text-container {
+        text-align: center;
+    	margin-top: 100px;
+    	display: flex; 
+	position: relative;
+    	flex-direction: column;
+    	align-items: center; 
+	color: #fff;
+
+        }
+
+.image-text-container img {
+         max-width: 100%;
+         height: auto;
+         position: absolute;
+         top: 0;
+         left: 0;
+         z-index: -1; 
+
+        }
+
+/* Social Media Icons Styles */
+
+.icon {
+      display: inline-block;
+      margin: 10px;
+      }
+
+.icon img {
+       width: 25px;
+       height: 24px;
+       display: block;
+       margin: 30px;
+       }
+
+/* Section Logo/Title STYLES*/
+
+.nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        background-color: #FFFFFF; 
+        background-size cover;
+        }
+
+.nav-left,
+.nav-right {
+        flex-grow: 2;
+        text-align: center;
+	display: flex;
+        justify-content: space-between;
+	margin: 30px;
+        }
+
+/* Section Styles */
+
+.nav-left a,
+.nav-right a {
+        text-decoration: none;
+        color: maroon; 
+        margin-right: 0px; 
+        font-family: "Verdana", serif; 
+        }
+
+/* Middle logo styles*/
+
+.logo {
+        width: 290px;
+        height: 100px;
+        display: block;
+        margin: 30 px;
+      }
+
+.image-text-container {
+        text-align: center;
+    	margin-top: 100px;
+    	display: flex; 
+	position: relative;
+    	flex-direction: column;
+    	align-items: center; 
+	color: #fff;
+
+        }
+
+.image-text-container img {
+         max-width: 100%;
+         height: auto;
+         position: absolute;
+         top: 0;
+         left: 0;
+         z-index: -1; 
+
+        }
+
+.welcome {
+		
+         background-color: rgba(0, 0, 0, 0.1);
+         padding: 20px;
+         border-radius: 20px;
+         text-align: center;
+
+         }
+
+ .welcome h2 {
+         font-size: 50px;
+	font-family: cursive, serif;
+ 	color: #FFFFFF; 
+         margin: 50px;
+         background-color: rgba(255, 255, 255, 0);
+         padding: 20px;
+	 align-items: center;
+         line-height: 0.4px;
+         margin-bottom: 0.5px;
+
+        }
+
+.welcome h3 {
+         font-size: 100px;
+	font-family: cursive;
+         margin-top: 50px;
+	color: #FFFFFF; 
+         background-color: rgba(255, 255, 255, 0);
+         padding: 20px;
+	align-items: center;
+	line-height: 1.2;
+        }
+
+.buttons {
+         text-align: center;
+	 align-items: center;
+	 margin = 0px;
+	 padding: 0px;
+        }
+
+.buttons a {
+	   margin-bottom: 100px;
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #800000;
+            color: #fff;
+	   text-decoration: none;
+            margin-right: 10px;
+            margin-top: 0px;
+            border: 5px solid #fff;
+        }
+
+/* Style for galleries */
+
+.gallery {
+         margin-top: 20px;
+         padding: 20px;
+         border: 1px solid #ccc;
+	background-color: rgba(249, 249, 249, 0.8); 
+   	text-align: center;
+        }
+
+.gallery h2 {
+         font-size: 24px;
+         margin-bottom: 10px;
+	color: #000;
+        }
+
+.gallery img {
+         height: 100px;
+         margin: 5px;
+   	 width: 400px; 
+        }
+
+
+/* IMAGE LIST styles */
+
+.image-list {
+  	  list-style-type: none;
+  	  padding: 0;
+}
+
+.image-list li {
+    	display: inline-block;
+   	margin-right: 10px;
+   	cursor: pointer;
+}	
+
+.image-list img {
+   	 max-width: 100px; 
+   	 border: 2px solid #fff;
+    	 transition: border 0.3s;
+}
+
+.image-list img: hover {
+    	border: 2px solid #00f;
+}
+
+/* Button/Link Styles */
+.button {
+        background-color: #8B008B; 
+        color: #fff; 
+        padding: 0.5px 2px; 
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+        margin-right: 3px;
+        font-size: 14px; 
+ }
+
+/* Link Styles */
+    
+ul li a {
+        color: #8B008B; 
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+ul li a:hover {
+        color: #FFFFFF; 
+    }
+</style>
+</head>
+<body>
+    <footer>
+        <div class="container">
+           <p style="font-style: italic;">1 900 HAVEN | 630-892-5580 • 2059 W. STATE ROAD 28 WEST LAFAYETTE, IN 47906</p>
+    <p style="font-style: italic;">FOR GPS DIRECTIONS: GOOGLE "VIENNA HEATHROW AIRPORT"</p>
+
+        </div>
+       	
+ <div class="container">
+
+    <ul>
+        <li><a href="services.html" target="_blank" "#about">• SERVICES</a></li>
+        <li><a href="products.html" target="_blank" "#about">• PRODUCTS</a></li>
+        <li><a href="FAQs.pdf" target="_blank" "#about">• FAQs</a></li>
+        <li><a href="connect.html" target="_blank" "#about">• CONNECT</a></li>
+        <li><a href="U.html" target="_blank" "#about">• ABOUT</a></li>
+        <li><a href="blogs.html" target="_blank" "#about">• BLOG</a></li>
+    </ul>
+</div>
+<br>
+
+▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰
+
+<div class="container">
+ 	<p style="font-size: 24px;">Upcoming Events | Information</p>
+	<p>✨ Twilight Event starts April 7th! ✨ <br> For more information, download our skydiving and hand-gliding manuals! <br>
+
+<br>
+
+<a href="Manny.pdf" target= "_blank" download class="button">Skydive Manual</a>| 
+        <a href="Glide.pdf" target= "_blank" download class="button">Hang-Glide Manual</a>
+    
+</div>
+
+	<div class="container">
+            <p id="lastUpdated">Last Updated:</p> 
+	<ul>
+  	 <li><p><a href= mailto:info@hangglidinghaven.com "#" style =" text-decoration: underline;"><br> Contact Us: info@hangglidinghaven.com <br> </a></p></li>
+Phone: +1 (123) 456-7890
+	</ul>
+       </div> 
+</footer>
+
+
+ <script>
+        function updateLastModifiedDate() {
+            const lastUpdatedElement = document.getElementById('lastUpdated');
+            const lastModified = new Date(document.lastModified);
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            const formattedDate = lastModified.toLocaleDateString(undefined, options);
+            lastUpdatedElement.textContent = 'Last Updated: ' + formattedDate;
+        }
+        updateLastModifiedDate();
+    </script>
+
+</body>
+</html>

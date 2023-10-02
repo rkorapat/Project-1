@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Purdue University MGMT38200</title>
+    <style>
+      body {
+       font-family: Georgia, cursive;
+       margin: 0; padding: 0;
+       background-image: url('para.jpg'); 
+       background-size: cover; 
+       background-position: center; 
+       background-attachment: fixed; 
+       }
+
+/* Below is in CSS */
+
+/* Footer Styles */
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer {
+    background-image: url('HK.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-section {
+    text-align: center;
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+     color: #FFFFFF;
+     text-decoration: none;
+     display: block;
+     margin: 5px 0;
+     transition: color 0.3s;
+}
+
+.footer-section ul li a: hover {
+      color: #FFFFFF;
+      text-decoration: underline;
+     
+}
+
+
+/* Header Styles */
+       
+.header{
+      background-color: #FFFFFF;
+      text-align: center;
+      padding: 0px;
+       }
+
+/* Middle logo styles*/
+
+.logo {
+        width: 290px;
+        height: 100px;
+        display: block;
+        margin: 30 px;
+      }
+
+.image-text-container {
+        text-align: center;
+    	margin-top: 100px;
+    	display: flex; 
+	position: relative;
+    	flex-direction: column;
+    	align-items: center; 
+	color: #fff;
+
+        }
+
+.image-text-container img {
+         max-width: 100%;
+         height: auto;
+         position: absolute;
+         top: 0;
+         left: 0;
+         z-index: -1; 
+
+        }
+
+/* Social Media Icons Styles */
+
+.icon {
+      display: inline-block;
+      margin: 10px;
+      }
+
+.icon img {
+       width: 25px;
+       height: 24px;
+       display: block;
+       margin: 30px;
+       }
+
+/* Section Logo/Title STYLES*/
+
+.nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        background-color: #FFFFFF; 
+        background-size cover;
+        }
+
+.nav-left,
+.nav-right {
+        flex-grow: 2;
+        text-align: center;
+	display: flex;
+        justify-content: space-between;
+	margin: 30px;
+        }
+
+/* Section Styles */
+
+.nav-left a,
+.nav-right a {
+        text-decoration: none;
+        color: maroon; 
+        margin-right: 0px; 
+        font-family: "Verdana", serif; 
+        }
+
+/* Middle logo styles*/
+
+.logo {
+        width: 290px;
+        height: 100px;
+        display: block;
+        margin: 30 px;
+      }
+
+.image-text-container {
+        text-align: center;
+    	margin-top: 100px;
+    	display: flex; 
+	position: relative;
+    	flex-direction: column;
+    	align-items: center; 
+	color: #fff;
+
+        }
+
+.image-text-container img {
+         max-width: 100%;
+         height: auto;
+         position: absolute;
+         top: 0;
+         left: 0;
+         z-index: -1; 
+
+        }
+
+.welcome {
+		
+         background-color: rgba(0, 0, 0, 0.1);
+         padding: 20px;
+         border-radius: 20px;
+         text-align: center;
+
+         }
+
+ .welcome h2 {
+         font-size: 50px;
+	font-family: cursive, serif;
+ 	color: #FFFFFF; 
+         margin: 50px;
+         background-color: rgba(255, 255, 255, 0);
+         padding: 20px;
+	 align-items: center;
+         line-height: 0.4px;
+         margin-bottom: 0.5px;
+
+        }
+
+.welcome h3 {
+         font-size: 100px;
+	font-family: cursive;
+         margin-top: 50px;
+	color: #FFFFFF; 
+         background-color: rgba(255, 255, 255, 0);
+         padding: 20px;
+	align-items: center;
+	line-height: 1.2;
+        }
+
+.buttons {
+          text-align: center;
+	 align-items: center;
+	 margin = 0px;
+	 padding: 0px;
+        }
+
+.buttons a {
+	margin-bottom: 100px;
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #800000;
+            color: #fff;
+	   text-decoration: none;
+            margin-right: 10px;
+            margin-top: 0px;
+            border: 5px solid #fff;
+        }
+
+/* Style for galleries */
+
+.gallery {
+         margin-top: 20px;
+         padding: 20px;
+         border: 1px solid #ccc;
+	background-color: rgba(249, 249, 249, 0.8); 
+   	text-align: center;
+        }
+
+.gallery h2 {
+         font-size: 24px;
+         margin-bottom: 10px;
+	color: #000;
+        }
+
+.gallery img {
+         height: 100px;
+         margin: 5px;
+   	 width: 400px; 
+        }
+
+
+/* IMAGE LIST styles */
+
+.image-list {
+  	  list-style-type: none;
+  	  padding: 0;
+}
+
+.image-list li {
+    	display: inline-block;
+   	margin-right: 10px;
+   	cursor: pointer;
+}	
+
+.image-list img {
+   	 max-width: 100px; 
+   	 border: 2px solid #fff;
+    	 transition: border 0.3s;
+}
+
+.image-list img: hover {
+    	border: 2px solid #00f;
+}
+
+/* Button/Link Styles */
+.button {
+        background-color: #8B008B; 
+        color: #fff; 
+        padding: 0.5px 2px; 
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+        margin-right: 3px;
+        font-size: 14px; 
+ }
+
+/* Link Styles */
+    
+ul li a {
+        color: #8B008B; 
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+ul li a:hover {
+        color: #FFFFFF; 
+    }
+
+</style>
+</head>
+
+<body>
+     <div class="container">
+        <div class="image-text-container">
+            <div class="welcome">
+                <h2>Welcome to</h2>
+            <h3>Harry & Harriet's Hang-Gliding Haven</h3>
+            </div>
+</div>
+
+<div class="container">
+        <div class="image-text-container">
+            <div class="welcome">
+      	<h1 ="font-size: 36px; text-align: center; margin-bottom: 20px;">Your Time in the Clouds!</h1>
+
+<p style="font-size: 24px; text-align: center; margin-bottom: 40px;">Experience the thrill of the open skies with Harry and Harriet's Hang-gliding Haven. Get ready to spread your wings and chase the wind – your epic journey begins here! <br> (click images below to expand!)</p>
+ 
+<a href="U.html" target="_blank" style="display: inline-block; padding: 15px 30px; background-color: #800000; color: #fff; text-decoration: none; font-weight: bold; font-size: 18px; border-radius: 5px; transition: background-color 0.3s ease;">Learn More</a>
+
+
+            </div>
+</div>
+
+<ol>
+<div class="gallery active" id="gallery1">
+    <h2>1. Preparation</h2>
+    <ol class="image-list">
+        <li class="image" onclick="showImage(1, 1)">
+            <img src="prep1.jpg" alt="Preparing for Skydiving 1"></li>
+        <li class="image" onclick="showImage(1, 2)">
+            <img src="prep2.jpg" alt="Preparing for Skydiving 2"></li>
+        <li class="image" onclick="showImage(1, 3)">
+            <img src="prep3.jpg" alt="Preparing for Skydiving 3"></li>
+    </ol>
+</div>
+
+
+  <div class="gallery" id="gallery2">
+    <h2>2. Skydiving Experience</h2>
+    <ol class="image-list">
+        <li class="image" onclick="showImage(2, 1)">
+            <img src="ex1.jpg" alt="Skydiving Experience 1"> </li>
+        <li class="image" onclick="showImage(2, 2)">
+            <img src="ex2.jpg" alt="Skydiving Experience 2"></li>
+        <li class="image" onclick="showImage(2, 3)">
+            <img src="ex3.jpg" alt="Skydiving Experience 3"></li>
+    </ol>
+</div>
+
+<div class="gallery" id="gallery3">
+    <h2>3. Hang-Gliding Adventure</h2>
+    <ol class="image-list">
+        <li class="image" onclick="showImage(3, 1)">
+            <img src="gl.jpg" alt="Hang Gliding Adventure 1">
+        </li>
+        <li class="image" onclick="showImage(3, 2)">
+            <img src="gl2.jpg" alt="Hang Gliding Adventure 2">
+        </li>
+        <li class="image" onclick="showImage(3, 3)">
+            <img src="gl1.jpg" alt="Hang Gliding Adventure 3">
+        </li>
+    </ol>
+</ol>
+
+</div>
+
+<script>
+    let currentGallery = 1;
+    let currentImage = 1;
+
+    function showImage(galleryNum, imageNum) {
+        document.getElementById('gallery' + currentGallery).classList.remove('active');
+        document.getElementById('gallery' + galleryNum).classList.add('active');
+        currentGallery = galleryNum;
+        currentImage = imageNum;
+        const imageSrc = document.querySelector(`#gallery${galleryNum} .image-list li:nth-child(${imageNum}) img`).src;
+        document.body.style.backgroundImage = `url('${imageSrc}')`;
+        document.body.style.backgroundSize = 'cover';
+        document.body.style.backgroundPosition = 'center';
+        document.body.style.backgroundAttachment = 'fixed<';
+    }
+</script>
+
+</body>
+</html>

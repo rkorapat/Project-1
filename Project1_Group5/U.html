@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Purdue University MGMT38200</title>
+    <style>
+      body {
+       font-family: Georgia, cursive;
+       margin: 0; padding: 0;
+       background-image: url('para.jpg'); 
+       background-size: cover; 
+       background-position: center; 
+       background-attachment: fixed; 
+       }
+
+body2 {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+	.cnt {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start; 
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .section {
+            flex-basis: calc(33.33% - 20px);
+            padding: 20px;
+            border: 1px solid #ccc;
+	    background-color: #301934;
+            text-align: center;
+            margin-bottom: 20px;
+            box-sizing: border-box; 
+        }
+
+        .section img {
+            
+	width: 175px;
+            height: 100px;
+        }
+
+        .section h2 {
+            margin-top: 10px;
+            font-size: 24px;
+	    color: #FFFFFF
+        }
+
+        .section p {
+            margin-top: 10px;
+	     color: #FFFFFF
+        }
+	
+	.gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .gallery img {
+            flex-basis: calc(50% - 10px);
+            width: 80px;
+            height: 350px;
+            margin-bottom: 20px;
+	    border: 3px solid #ccc;
+        }
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer {
+    background-image: url('HK.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-section {
+    text-align: center;
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+     color: #FFFFFF;
+      text-decoration: none;
+      display: block;
+      margin: 5px 0;
+      transition: color 0.3s;
+}
+
+.footer-section ul li a: hover {
+      color: #FFFFFF;
+      text-decoration: underline;
+     
+}
+
+ /* Header Styles */
+       
+.header {
+      background-color: #FFFFFF;
+      text-align: center;
+      padding: 0px;
+        }
+/* Social Media Icon STYLES*/
+
+.icon {
+        display: inline-block;
+        margin: 10px;
+        }
+
+.icon img {
+         width: 25px;
+         height: 24px;
+         display: block;
+         margin: 30px;
+        }
+
+/* Section Logo/Title STYLES*/
+
+.nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+ 	   background-color: #FFFFFF; 
+            background-size cover;
+        }
+
+.nav-left,
+.nav-right {
+            flex-grow: 2;
+            text-align: center;
+	display: flex;
+            justify-content: space-between;
+	margin: 30px;
+        }
+
+/* Section Styles */
+
+.nav-left a,
+.nav-right a {
+          text-decoration: none;
+          color: maroon; 
+          margin-right: 0px; 
+          font-family: "Verdana", serif; 
+        }
+
+/* Middle logo styles*/
+.logo {
+          width: 290px;
+          height: 100px;
+          display: block;
+          margin: 30 px;
+}
+
+
+
+.image-text-container {
+text-align: center;
+    	margin-top: 20px;
+    	display: flex; 
+	position: relative;
+    	flex-direction: column;
+    	align-items: center;
+	color: #fff;
+
+        }
+
+.image-text-container img {
+            max-width: 00%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1; 
+        }
+
+.welcome{
+		
+          background-color: rgba(0, 0, 0, 0.2); 
+          padding: 10px;
+          border-radius: 20px;
+          text-align: center;
+    }
+
+ .welcome h2 {
+          font-size: 50px;
+	font-family: cursive, serif;
+ 	color: #FFFFFF; 
+            margin: 50px;
+            background-color: rgba(900, 255, 255, 0);
+            padding: 10px;
+	align-items: center;
+            line-height: 0.0px;
+           margin-bottom: 0.0px;
+        }
+
+.welcome h3 {
+            font-size: 100px;
+	font-family: seif;
+            margin-top: 10px;
+	margin-bottom: 10px;
+	color: #FFFFFF; 
+            background-color: rgba(400, 255, 255, 0);
+            padding: 10px;
+	align-items: center;
+	line-height: 1.0;
+        }
+
+.buttons {
+            text-align: center;
+	 align-items: center;
+	 margin = 0px;
+	 padding: 0px;
+        }
+
+.buttons a {
+	margin-bottom: 100px;
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: #800000;
+            color: #fff;
+	   text-decoration: none;
+            margin-right: 10px;
+	    margin-top: 0px;
+            border: 5px solid #fff; 
+        }
+
+ .button {
+        background-color: #8B008B; 
+        color: #fff; 
+        padding: 0.5px 2px; 
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+        margin-right: 3px;
+        font-size: 14px; 
+ }   
+
+ul li a {
+        color: #8B008B; 
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+ ul li a:hover {
+        color: #FFFFFF; 
+    }
+    </style>
+</head>
+
+<body>
+   
+ <div class="container">
+        <div class="image-text-container">
+            <div class="welcome">
+		<h2> Welcome to Haven! </h2>
+            	<h3>About Us</h3>
+            </div>
+</div>
+
+<div class="container">
+        <div class="image-text-container">
+            <div class="welcome">
+      	<h1 ="font-size: 36px; text-align: center; margin-bottom: 20px;">Welcome to Indiana's best <br> Skydiving & Hang-Gliding Experience.</h1>
+
+<p style="font-size: 24px; text-align: center; margin-bottom: 40px;">We're proudly serving the adrenaline junkies of the Midwest since 1999! With over two decades of exhilarating experience in the skydiving and hang-gliding industry, we are thrilled to share the thrill of freefall 🛩️ and soaring 🪂 with you!</p>
+ 
+<a href="connect.html" target = "_blank" style="display: inline-block; padding: 15px 30px; background-color: #800000; color: #fff; text-decoration: none; font-weight: bold; font-size: 18px; border-radius: 5px; transition: background-color 0.3s ease;">MEET THE TEAM</a>
+
+</div>
+</div>
+
+<div class="gallery">
+        <img src="g1.jpg" alt="Image 1">
+        <img src="g2.jpg" alt="Image 2">
+        <img src="g3.jpg" alt="Image 3">
+        <img src="g4.jpg" alt="Image 4">
+        <img src="g5.jpg" alt="Image 5">
+        <img src="g6.jpg" alt="Image 6">
+</div>
+
+<ol>
+<li>
+<div class="cnt">
+        <div class="section">
+            <img src="location.jpg" alt="Our Location">
+            <h2>1. OUR LOCATION</h2>
+            <p>Located at Vienna Heathrow Airport, just 60 minutes north of Indy, we're excited to welcome divers of all levels. Join us for an unforgettable adventure in the skies! </p>
+        </div>
+    
+        <div class="section">
+            <img src="aircraft.jpg" alt="Our Aircraft">
+            <h2>2. OUR AIRCRAFT</h2>
+            <p>Embark on a thrilling adventure with SkySurge Odyssey. Our aircraft can reach 18,500 feet, and spaciously accommodates 23 jumpers, offering unforgettable experiences shared with loved ones!</p>
+        </div>
+        <div class="section">
+            <img src="people.jpg" alt="Our People">
+            <h2>3. OUR PEOPLE</h2>
+            <p>We have dedicated teams of USPA-rated instructors, coaches, and videographers to guide and capture your adventure. Along with a full-time Master rigger, expert packers, and a friendly office staff for all your needs! </p>
+        </div>
+</li>
+</div>
+</ol>
+
+<div class="section">
+    <h2></h2>
+    <p>If you're ready to book your adventure or have any questions, feel free to get in touch with us and check out our FAQs for any general information.</p>
+    
+    <a href="FAQs.pdf" style="text-decoration: underline;">Frequently Asked Questions (FAQs)</a>
+    
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@hangglidinghaven.com" style="text-decoration: underline;">info@hangglidinghaven.com</a></p>
+    <p>Phone: +1 (123) 456-7890</p>
+</div>
+
+</body>
+</html>
+
+
+
+
+
